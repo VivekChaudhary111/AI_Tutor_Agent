@@ -69,7 +69,7 @@ st.divider()
 # --- SIDEBAR ---
 with st.sidebar:
     st.header("Configuration")
-    st.success(f"Model Active: gpt-4")
+    st.success(f"Model Active: gpt-5-nano")
     with st.expander("Upload Notes (Optional)"):
         uploaded_file = st.file_uploader("Upload .txt file", type="txt")
         user_notes_text = uploaded_file.read().decode("utf-8") if uploaded_file else ""
